@@ -1,0 +1,7 @@
+1. LOGISTIC REGRESSION
+ACCURACY OPTIMISATION
+STEP 1: CHANGING THE MAX ITERATIONS TO SEE WHAT SEEMS FIT
+    ITERATION           ACCURACY
+    1000                Reached Limit
+    2000                Reached Limit
+    3000                
