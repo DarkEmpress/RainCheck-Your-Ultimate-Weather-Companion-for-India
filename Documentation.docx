@@ -1,7 +1,32 @@
 1. LOGISTIC REGRESSION
 ACCURACY OPTIMISATION
 STEP 1: CHANGING THE MAX ITERATIONS TO SEE WHAT SEEMS FIT
-    ITERATION           ACCURACY
+    INITIAL: WE CONSIDERED temperature_farenheit, wind_kph, wind_degree, pressure_mb, humidity, cloud
+    ITERATION           ACCURACY(%)
     1000                Reached Limit
     2000                Reached Limit
-    3000                
+    3000                Reached Limit
+    4000                Reached Limit
+    5000                Reached Limit
+    6000                Reached Limit
+    7000                Reached Limit
+    8000                Reached Limit
+    9000                68.4780
+    10000               68.4780
+    11000               68.4780
+    Conclusion: Accuracy does not increase as the max iterations increase
+STEP 2:CHANGING THE Xs THAT DETERMINE THE Y
+    I. INITIAL: WE CONSIDERED temperature_farenheit, wind_kph, wind_degree, pressure_mb, humidity, cloud
+        Accuracy:68.4780
+    II.Now we consider temperature_farenheit, wind_kph, pressure_mb, humidity, cloud
+       Accuracy:68.4256
+    III. INITIAL: WE CONSIDERED temperature_farenheit, wind_kph, wind_degree, pressure_mb, humidity, cloud, visibility_km
+        Maximum iterations reach imit at max_iter=9000
+        max_iter=50000
+        accuracy:84.
+        NOTE: The maximum iterations reached limit!!
+    CONCLUSION: since we we tried ways to improve accuracy by modifying dependent variables and increasing max_iter yet did not get satisfactory results now we are going for another model that fits best for this dataset
+
+2. 
+        
+        
