@@ -27,6 +27,13 @@ STEP 2:CHANGING THE Xs THAT DETERMINE THE Y
         NOTE: The maximum iterations reached limit!!
     CONCLUSION: since we we tried ways to improve accuracy by modifying dependent variables and increasing max_iter yet did not get satisfactory results now we are going for another model that fits best for this dataset
 
-2. 
+2. DECISION TREE CLASSIFICATION
+    Xs: location_name, temperature_farenheit, wind_kph, wind degree, pressure_mb, humidity, cloud, visibility_km
+    Y: condition_text
+    test_size=0.2
+    random_state=56
+    tree classifier random state= 37
+    accuracy=91.92766347791903 %
+    
         
         
